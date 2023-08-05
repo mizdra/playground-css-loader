@@ -1,8 +1,8 @@
-@value colors: "./colors.css";
+@value colors: "./colors.module.css";
 /* import multiple from a single file */
 @value primary, secondary from colors;
 /* make local aliases to imported values */
-@value small as bp-small, large as bp-large from "./breakpoints.css";
+@value small as bp-small, large as bp-large from "./breakpoints.module.css";
 /* value as selector name */
 @value selectorValue: secondary-color;
 

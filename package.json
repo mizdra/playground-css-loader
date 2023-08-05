@@ -50,12 +50,8 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "bin": {
-    "example-command": "bin/example-command.js"
-  },
   "keywords": [],
   "files": [
-    "bin",
     "src",
     "!src/**/*.test.ts",
     "!src/**/__snapshots__",

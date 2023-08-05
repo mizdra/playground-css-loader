@@ -14,4 +14,5 @@ $ node dist/main.js
   'secondary-color': 'wfuy0jm0_bZeptNERYCN',
   header: 'mqFE6DOxhpJ8xrachZok kLZaumP2MTj7BX1hzc0X'
 }
+{ foo: 'anything' }
 ```

@@ -1,0 +1,27 @@
+@value colors: "./colors.css";
+/* import multiple from a single file */
+@value primary, secondary from colors;
+/* make local aliases to imported values */
+@value small as bp-small, large as bp-large from "./breakpoints.css";
+/* value as selector name */
+@value selectorValue: secondary-color;
+
+.selectorValue {
+  color: secondary;
+}
+
+.header {
+  composes: text-primary from colors;
+  box-shadow: 0 0 10px secondary;
+}
+
+@media bp-small {
+  .header {
+    box-shadow: 0 0 4px secondary;
+  }
+}
+@media bp-large {
+  .header {
+    box-shadow: 0 0 20px secondary;
+  }
+}

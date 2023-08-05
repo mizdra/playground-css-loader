@@ -1,2 +1,4 @@
-export { run } from './runner.js';
-export { add } from './math.js';
+import styles from './index.module.css';
+
+// eslint-disable-next-line no-console
+console.log(styles);
